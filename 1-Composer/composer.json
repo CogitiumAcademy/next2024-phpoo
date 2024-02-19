@@ -1,0 +1,17 @@
+{
+    "name": "phgiraud/1-composer",
+    "description": "Projet de test Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Phgiraud\\1Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cogitium",
+            "email": "info@cogitium.com"
+        }
+    ],
+    "require": {}
+}
