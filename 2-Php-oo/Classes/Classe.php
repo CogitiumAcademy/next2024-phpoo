@@ -184,4 +184,14 @@ class Classe
         $this->ecole = $ecole;
     }
 
+    /**
+     * getEcole
+     *
+     * @return mixed
+     */
+    public function getEcole(mixed $ecole): mixed
+    {
+        return $this->ecole;
+    }
+
 }

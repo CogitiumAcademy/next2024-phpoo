@@ -152,15 +152,15 @@ class Ecole
     /**
      * addClass
      *
-     * @param  mixed $class
+     * @param  mixed $classe
      * @return void
      */
-    public function addClass(Classe $class): void
+    public function addClass(Classe $classe): void
     {
-        if (!in_array($class, $this->classes)) {
-            $this->classes[] = $class;
+        if (!in_array($classe, $this->classes)) {
+            $this->classes[] = $classe;
 
-            $class->setEcole($this);
+            $classe->setEcole($this);
         }
     }
 }
