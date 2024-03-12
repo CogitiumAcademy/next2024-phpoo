@@ -1,0 +1,18 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}Gestion des users{% endblock %}
+
+{% block content %}
+
+    <h1>Liste des utilisateurs ( {{ nbusers }} )</h1>
+
+    <ul>
+    {% for user in users %}
+        <li>{{ user.firstname }}</li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}
+
+
+
